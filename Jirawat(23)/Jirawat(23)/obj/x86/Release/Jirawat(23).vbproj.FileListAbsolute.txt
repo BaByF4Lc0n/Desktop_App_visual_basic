@@ -1,0 +1,7 @@
+C:\Users\b4byf\Downloads\Jirawat(23)-20240722T053557Z-001\Jirawat(23)\Jirawat(23)\obj\x86\Release\Jirawat(23).vbproj.AssemblyReference.cache
+C:\Users\b4byf\Downloads\Jirawat(23)-20240722T053557Z-001\Jirawat(23)\Jirawat(23)\obj\x86\Release\Jirawat_23_.cutgradeoage.resources
+C:\Users\b4byf\Downloads\Jirawat(23)-20240722T053557Z-001\Jirawat(23)\Jirawat(23)\obj\x86\Release\Jirawat_23_.main.resources
+C:\Users\b4byf\Downloads\Jirawat(23)-20240722T053557Z-001\Jirawat(23)\Jirawat(23)\obj\x86\Release\Jirawat_23_.Resources.resources
+C:\Users\b4byf\Downloads\Jirawat(23)-20240722T053557Z-001\Jirawat(23)\Jirawat(23)\obj\x86\Release\Jirawat_23_.sum.resources
+C:\Users\b4byf\Downloads\Jirawat(23)-20240722T053557Z-001\Jirawat(23)\Jirawat(23)\obj\x86\Release\Jirawat(23).vbproj.GenerateResource.cache
+C:\Users\b4byf\Downloads\Jirawat(23)-20240722T053557Z-001\Jirawat(23)\Jirawat(23)\obj\x86\Release\Jirawat(23).vbproj.CoreCompileInputs.cache

@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b4byf\\Downloads\\Jirawat(23)-20240722T053557Z-001\\Jirawat(23)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{990A6BEF-8446-4808-A3EF-8EE0C0979467}|Jirawat(23)\\Jirawat(23).vbproj|C:\\Users\\b4byf\\Downloads\\Jirawat(23)-20240722T053557Z-001\\Jirawat(23)\\jirawat(23)\\cutgradeoage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{990A6BEF-8446-4808-A3EF-8EE0C0979467}|Jirawat(23)\\Jirawat(23).vbproj|solutionrelative:jirawat(23)\\cutgradeoage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{990A6BEF-8446-4808-A3EF-8EE0C0979467}|Jirawat(23)\\Jirawat(23).vbproj|c:\\users\\b4byf\\downloads\\jirawat(23)-20240722t053557z-001\\jirawat(23)\\jirawat(23)\\cutgradeoage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{990A6BEF-8446-4808-A3EF-8EE0C0979467}|Jirawat(23)\\Jirawat(23).vbproj|solutionrelative:jirawat(23)\\cutgradeoage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cutgradeoage.vb",
+              "DocumentMoniker": "C:\\Users\\b4byf\\Downloads\\Jirawat(23)-20240722T053557Z-001\\Jirawat(23)\\Jirawat(23)\\cutgradeoage.vb",
+              "RelativeDocumentMoniker": "Jirawat(23)\\cutgradeoage.vb",
+              "ToolTip": "C:\\Users\\b4byf\\Downloads\\Jirawat(23)-20240722T053557Z-001\\Jirawat(23)\\Jirawat(23)\\cutgradeoage.vb",
+              "RelativeToolTip": "Jirawat(23)\\cutgradeoage.vb",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAHAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-22T05:39:31.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cutgradeoage.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\b4byf\\Downloads\\Jirawat(23)-20240722T053557Z-001\\Jirawat(23)\\Jirawat(23)\\cutgradeoage.vb",
+              "RelativeDocumentMoniker": "Jirawat(23)\\cutgradeoage.vb",
+              "ToolTip": "C:\\Users\\b4byf\\Downloads\\Jirawat(23)-20240722T053557Z-001\\Jirawat(23)\\Jirawat(23)\\cutgradeoage.vb [Design]",
+              "RelativeToolTip": "Jirawat(23)\\cutgradeoage.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-22T05:39:22.949Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
