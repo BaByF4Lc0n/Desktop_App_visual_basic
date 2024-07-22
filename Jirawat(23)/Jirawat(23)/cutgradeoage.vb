@@ -97,38 +97,38 @@
     End Sub
 
     Private Sub output_Click(sender As Object, e As EventArgs) Handles output.Click
-        If sum > 80 Then
+        If (sum >= 80) Then
             lboutputall.Text = "ชื่อ:" & entername.Text & vbNewLine &
                            "นามสกุล:" & entersurename.Text & vbNewLine &
                            "ชั้น:" & enterclass.Text & vbNewLine &
                            "เลขที่:" & enternum.Text & vbNewLine &
                            "วิชา:" & ComboBox1.Text & vbNewLine &
                            "คะแนนรวม:" & sum & vbNewLine &
-                           "เกรดที่ได้:" & "4"
-        ElseIf (sum < 80) Then
+                           "เกรด:" & "4"
+        ElseIf (sum >= 70) Then
             lboutputall.Text = "ชื่อ:" & entername.Text & vbNewLine &
                            "นามสกุล:" & entersurename.Text & vbNewLine &
                            "ชั้น:" & enterclass.Text & vbNewLine &
                            "เลขที่:" & enternum.Text & vbNewLine &
                            "วิชา:" & ComboBox1.Text & vbNewLine &
                            "คะแนนรวม:" & sum & vbNewLine &
-                           "เกรดที่ได้:" & "3"
-        ElseIf (sum < 70) Then
+                           "เกรด:" & "3"
+        ElseIf (sum >= 60) Then
             lboutputall.Text = "ชื่อ:" & entername.Text & vbNewLine &
                            "นามสกุล:" & entersurename.Text & vbNewLine &
                            "ชั้น:" & enterclass.Text & vbNewLine &
                            "เลขที่:" & enternum.Text & vbNewLine &
                            "วิชา:" & ComboBox1.Text & vbNewLine &
                            "คะแนนรวม:" & sum & vbNewLine &
-                           "เกรดที่ได้:" & "2"
-        ElseIf (sum < 60) Then
+                           "เกรด:" & "2"
+        ElseIf (sum >= 50) Then
             lboutputall.Text = "ชื่อ:" & entername.Text & vbNewLine &
                            "นามสกุล:" & entersurename.Text & vbNewLine &
                            "ชั้น:" & enterclass.Text & vbNewLine &
                            "เลขที่:" & enternum.Text & vbNewLine &
                            "วิชา:" & ComboBox1.Text & vbNewLine &
                            "คะแนนรวม:" & sum & vbNewLine &
-                           "เกรดที่ได้:" & "1"
+                           "เกรด:" & "1"
         ElseIf (sum < 50) Then
             lboutputall.Text = "ชื่อ:" & entername.Text & vbNewLine &
                            "นามสกุล:" & entersurename.Text & vbNewLine &
@@ -188,34 +188,46 @@
     End Sub
 
     Private Sub btcutgrade_Click(sender As System.Object, e As System.EventArgs) Handles btcutgrade.Click
-        If (sum < 50) Then
+        If (sum >= 80) Then
             MessageBox.Show("ชื่อ:" & entername.Text & vbNewLine &
                             "สกุล:" & entersurename.Text & vbNewLine &
                             "ชั้น:" & enterclass.Text & vbNewLine &
                             "เลขที่:" & enternum.Text & vbNewLine &
-                            "คะแนนรวม:" & totalresult.Text & vbNewLine &
-                            "เกรด: 0" & vbNewLine)
-        ElseIf (sum <= 60) Then
-            MessageBox.Show("ชื่อ:" & entername.Text & vbNewLine &
-                            "สกุล:" & entersurename.Text & vbNewLine &
-                            "ชั้น:" & enterclass.Text & vbNewLine &
-                            "เลขที่:" & enternum.Text & vbNewLine &
-                            "คะแนนรวม:" & totalresult.Text & vbNewLine &
-                            "เกรด: 2" & vbNewLine)
-        ElseIf (sum <= 70) Then
-            MessageBox.Show("ชื่อ:" & entername.Text & vbNewLine &
-                            "สกุล:" & entersurename.Text & vbNewLine &
-                            "ชั้น:" & enterclass.Text & vbNewLine &
-                            "เลขที่:" & enternum.Text & vbNewLine &
-                            "คะแนนรวม:" & totalresult.Text & vbNewLine &
-                            "เกรด: 3" & vbNewLine)
-        ElseIf (sum >= 80) Then
-            MessageBox.Show("ชื่อ:" & entername.Text & vbNewLine &
-                            "สกุล:" & entersurename.Text & vbNewLine &
-                            "ชั้น:" & enterclass.Text & vbNewLine &
-                            "เลขที่:" & enternum.Text & vbNewLine &
+                            "วิชา:" & ComboBox1.Text & vbNewLine &
                             "คะแนนรวม:" & totalresult.Text & vbNewLine &
                             "เกรด: 4" & vbNewLine)
+        ElseIf (sum >= 70) Then
+            MessageBox.Show("ชื่อ:" & entername.Text & vbNewLine &
+                            "สกุล:" & entersurename.Text & vbNewLine &
+                            "ชั้น:" & enterclass.Text & vbNewLine &
+                            "เลขที่:" & enternum.Text & vbNewLine &
+                            "วิชา:" & ComboBox1.Text & vbNewLine &
+                            "คะแนนรวม:" & totalresult.Text & vbNewLine &
+                            "เกรด: 3" & vbNewLine)
+        ElseIf (sum >= 60) Then
+            MessageBox.Show("ชื่อ:" & entername.Text & vbNewLine &
+                            "สกุล:" & entersurename.Text & vbNewLine &
+                            "ชั้น:" & enterclass.Text & vbNewLine &
+                            "เลขที่:" & enternum.Text & vbNewLine &
+                            "วิชา:" & ComboBox1.Text & vbNewLine &
+                            "คะแนนรวม:" & totalresult.Text & vbNewLine &
+                            "เกรด: 2" & vbNewLine)
+        ElseIf (sum >= 50) Then
+            MessageBox.Show("ชื่อ:" & entername.Text & vbNewLine &
+                            "สกุล:" & entersurename.Text & vbNewLine &
+                            "ชั้น:" & enterclass.Text & vbNewLine &
+                            "เลขที่:" & enternum.Text & vbNewLine &
+                            "วิชา:" & ComboBox1.Text & vbNewLine &
+                            "คะแนนรวม:" & totalresult.Text & vbNewLine &
+                            "เกรด: 1" & vbNewLine)
+        ElseIf (sum < 50) Then
+            MessageBox.Show("ชื่อ:" & entername.Text & vbNewLine &
+                            "สกุล:" & entersurename.Text & vbNewLine &
+                            "ชั้น:" & enterclass.Text & vbNewLine &
+                            "เลขที่:" & enternum.Text & vbNewLine &
+                            "วิชา:" & ComboBox1.Text & vbNewLine &
+                            "คะแนนรวม:" & totalresult.Text & vbNewLine &
+                            "เกรด: 0" & vbNewLine)
         End If
     End Sub
 End Class
