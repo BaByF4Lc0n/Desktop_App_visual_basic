@@ -23,20 +23,20 @@ Partial Class register
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.cleardata = New System.Windows.Forms.Button()
-        Me.editbutton = New System.Windows.Forms.Button()
-        Me.addbutton = New System.Windows.Forms.Button()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.entermajor = New System.Windows.Forms.TextBox()
-        Me.entersurename = New System.Windows.Forms.TextBox()
-        Me.entername = New System.Windows.Forms.TextBox()
-        Me.enterid = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.enterid = New System.Windows.Forms.TextBox()
+        Me.entername = New System.Windows.Forms.TextBox()
+        Me.entersurename = New System.Windows.Forms.TextBox()
+        Me.entermajor = New System.Windows.Forms.TextBox()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
+        Me.addbutton = New System.Windows.Forms.Button()
+        Me.editbutton = New System.Windows.Forms.Button()
+        Me.cleardata = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.btback = New System.Windows.Forms.Button()
         Me.btclose = New System.Windows.Forms.Button()
@@ -60,192 +60,172 @@ Partial Class register
         Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Location = New System.Drawing.Point(45, 46)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Location = New System.Drawing.Point(60, 56)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(420, 232)
+        Me.GroupBox1.Size = New System.Drawing.Size(560, 285)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "ลงทะเบียนนักเรียน"
         '
-        'cleardata
+        'Label1
         '
-        Me.cleardata.Location = New System.Drawing.Point(247, 111)
-        Me.cleardata.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.cleardata.Name = "cleardata"
-        Me.cleardata.Size = New System.Drawing.Size(56, 19)
-        Me.cleardata.TabIndex = 3
-        Me.cleardata.Text = "Reset"
-        Me.cleardata.UseVisualStyleBackColor = True
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(30, 47)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(66, 16)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "รหัสนักเรียน:"
         '
-        'editbutton
+        'Label2
         '
-        Me.editbutton.Location = New System.Drawing.Point(247, 72)
-        Me.editbutton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.editbutton.Name = "editbutton"
-        Me.editbutton.Size = New System.Drawing.Size(56, 19)
-        Me.editbutton.TabIndex = 3
-        Me.editbutton.Text = "Edit"
-        Me.editbutton.UseVisualStyleBackColor = True
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(73, 89)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(23, 16)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "ชื่อ:"
         '
-        'addbutton
+        'Label3
         '
-        Me.addbutton.Location = New System.Drawing.Point(247, 37)
-        Me.addbutton.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.addbutton.Name = "addbutton"
-        Me.addbutton.Size = New System.Drawing.Size(56, 19)
-        Me.addbutton.TabIndex = 3
-        Me.addbutton.Text = "Add"
-        Me.addbutton.UseVisualStyleBackColor = True
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(48, 137)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(48, 16)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "นามสกุล:"
         '
-        'RadioButton2
+        'Label4
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(140, 151)
-        Me.RadioButton2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(46, 17)
-        Me.RadioButton2.TabIndex = 2
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "หญิง"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(68, 186)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(28, 16)
+        Me.Label4.TabIndex = 0
+        Me.Label4.Text = "เพศ:"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(44, 240)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(52, 16)
+        Me.Label5.TabIndex = 0
+        Me.Label5.Text = "สาขาวิชา:"
+        '
+        'enterid
+        '
+        Me.enterid.Location = New System.Drawing.Point(118, 47)
+        Me.enterid.Name = "enterid"
+        Me.enterid.Size = New System.Drawing.Size(134, 22)
+        Me.enterid.TabIndex = 1
+        '
+        'entername
+        '
+        Me.entername.Location = New System.Drawing.Point(118, 89)
+        Me.entername.Name = "entername"
+        Me.entername.Size = New System.Drawing.Size(134, 22)
+        Me.entername.TabIndex = 1
+        '
+        'entersurename
+        '
+        Me.entersurename.Location = New System.Drawing.Point(118, 137)
+        Me.entersurename.Name = "entersurename"
+        Me.entersurename.Size = New System.Drawing.Size(134, 22)
+        Me.entersurename.TabIndex = 1
+        '
+        'entermajor
+        '
+        Me.entermajor.Location = New System.Drawing.Point(118, 240)
+        Me.entermajor.Name = "entermajor"
+        Me.entermajor.Size = New System.Drawing.Size(134, 22)
+        Me.entermajor.TabIndex = 1
         '
         'RadioButton1
         '
         Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(88, 151)
-        Me.RadioButton1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.RadioButton1.Location = New System.Drawing.Point(118, 186)
         Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(44, 17)
+        Me.RadioButton1.Size = New System.Drawing.Size(46, 20)
         Me.RadioButton1.TabIndex = 2
         Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "ชาย"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
-        'entermajor
+        'RadioButton2
         '
-        Me.entermajor.Location = New System.Drawing.Point(88, 195)
-        Me.entermajor.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.entermajor.Name = "entermajor"
-        Me.entermajor.Size = New System.Drawing.Size(102, 20)
-        Me.entermajor.TabIndex = 1
+        Me.RadioButton2.AutoSize = True
+        Me.RadioButton2.Location = New System.Drawing.Point(186, 186)
+        Me.RadioButton2.Name = "RadioButton2"
+        Me.RadioButton2.Size = New System.Drawing.Size(51, 20)
+        Me.RadioButton2.TabIndex = 2
+        Me.RadioButton2.TabStop = True
+        Me.RadioButton2.Text = "หญิง"
+        Me.RadioButton2.UseVisualStyleBackColor = True
         '
-        'entersurename
+        'addbutton
         '
-        Me.entersurename.Location = New System.Drawing.Point(88, 111)
-        Me.entersurename.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.entersurename.Name = "entersurename"
-        Me.entersurename.Size = New System.Drawing.Size(102, 20)
-        Me.entersurename.TabIndex = 1
+        Me.addbutton.Location = New System.Drawing.Point(329, 45)
+        Me.addbutton.Name = "addbutton"
+        Me.addbutton.Size = New System.Drawing.Size(75, 23)
+        Me.addbutton.TabIndex = 3
+        Me.addbutton.Text = "Add"
+        Me.addbutton.UseVisualStyleBackColor = True
         '
-        'entername
+        'editbutton
         '
-        Me.entername.Location = New System.Drawing.Point(88, 72)
-        Me.entername.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.entername.Name = "entername"
-        Me.entername.Size = New System.Drawing.Size(102, 20)
-        Me.entername.TabIndex = 1
+        Me.editbutton.Location = New System.Drawing.Point(329, 89)
+        Me.editbutton.Name = "editbutton"
+        Me.editbutton.Size = New System.Drawing.Size(75, 23)
+        Me.editbutton.TabIndex = 3
+        Me.editbutton.Text = "Edit"
+        Me.editbutton.UseVisualStyleBackColor = True
         '
-        'enterid
+        'cleardata
         '
-        Me.enterid.Location = New System.Drawing.Point(88, 38)
-        Me.enterid.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.enterid.Name = "enterid"
-        Me.enterid.Size = New System.Drawing.Size(102, 20)
-        Me.enterid.TabIndex = 1
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(33, 195)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(50, 13)
-        Me.Label5.TabIndex = 0
-        Me.Label5.Text = "สาขาวิชา:"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(51, 151)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(31, 13)
-        Me.Label4.TabIndex = 0
-        Me.Label4.Text = "เพศ:"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(36, 111)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(49, 13)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "นามสกุล:"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(55, 72)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(23, 13)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "ชื่อ:"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(22, 38)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(70, 13)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "รหัสนักเรียน:"
+        Me.cleardata.Location = New System.Drawing.Point(329, 137)
+        Me.cleardata.Name = "cleardata"
+        Me.cleardata.Size = New System.Drawing.Size(75, 23)
+        Me.cleardata.TabIndex = 3
+        Me.cleardata.Text = "Reset"
+        Me.cleardata.UseVisualStyleBackColor = True
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Location = New System.Drawing.Point(45, 283)
-        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.DataGridView1.Location = New System.Drawing.Point(60, 348)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 24
-        Me.DataGridView1.Size = New System.Drawing.Size(420, 184)
+        Me.DataGridView1.Size = New System.Drawing.Size(560, 227)
         Me.DataGridView1.TabIndex = 1
         '
         'btback
         '
-        Me.btback.Location = New System.Drawing.Point(676, 462)
-        Me.btback.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btback.Location = New System.Drawing.Point(901, 569)
         Me.btback.Name = "btback"
-        Me.btback.Size = New System.Drawing.Size(51, 28)
+        Me.btback.Size = New System.Drawing.Size(68, 34)
         Me.btback.TabIndex = 2
         Me.btback.Text = "Back"
         Me.btback.UseVisualStyleBackColor = True
         '
         'btclose
         '
-        Me.btclose.Location = New System.Drawing.Point(762, 462)
-        Me.btclose.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btclose.Location = New System.Drawing.Point(1016, 569)
         Me.btclose.Name = "btclose"
-        Me.btclose.Size = New System.Drawing.Size(56, 28)
+        Me.btclose.Size = New System.Drawing.Size(75, 34)
         Me.btclose.TabIndex = 2
         Me.btclose.Text = "Close"
         Me.btclose.UseVisualStyleBackColor = True
         '
         'register
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(871, 507)
+        Me.ClientSize = New System.Drawing.Size(1161, 624)
         Me.Controls.Add(Me.btclose)
         Me.Controls.Add(Me.btback)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "register"
         Me.Text = "register"
         Me.GroupBox1.ResumeLayout(False)
