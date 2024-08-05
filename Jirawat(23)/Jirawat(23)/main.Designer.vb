@@ -30,54 +30,49 @@ Partial Class main
         '
         'summath
         '
-        Me.summath.Location = New System.Drawing.Point(295, 42)
-        Me.summath.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.summath.Location = New System.Drawing.Point(221, 34)
         Me.summath.Name = "summath"
-        Me.summath.Size = New System.Drawing.Size(612, 149)
+        Me.summath.Size = New System.Drawing.Size(459, 121)
         Me.summath.TabIndex = 0
         Me.summath.Text = "โปรแกรมคำนวนเลข"
         Me.summath.UseVisualStyleBackColor = True
         '
         'cutgrade
         '
-        Me.cutgrade.Location = New System.Drawing.Point(295, 217)
-        Me.cutgrade.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.cutgrade.Location = New System.Drawing.Point(221, 176)
         Me.cutgrade.Name = "cutgrade"
-        Me.cutgrade.Size = New System.Drawing.Size(612, 149)
+        Me.cutgrade.Size = New System.Drawing.Size(459, 121)
         Me.cutgrade.TabIndex = 0
         Me.cutgrade.Text = "โปรแกรมตัดเกรด"
         Me.cutgrade.UseVisualStyleBackColor = True
         '
         'close1
         '
-        Me.close1.Location = New System.Drawing.Point(1084, 540)
-        Me.close1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.close1.Location = New System.Drawing.Point(813, 439)
         Me.close1.Name = "close1"
-        Me.close1.Size = New System.Drawing.Size(123, 54)
+        Me.close1.Size = New System.Drawing.Size(92, 44)
         Me.close1.TabIndex = 0
         Me.close1.Text = "close"
         Me.close1.UseVisualStyleBackColor = True
         '
         'btregister
         '
-        Me.btregister.Location = New System.Drawing.Point(295, 383)
-        Me.btregister.Margin = New System.Windows.Forms.Padding(4)
+        Me.btregister.Location = New System.Drawing.Point(221, 311)
         Me.btregister.Name = "btregister"
-        Me.btregister.Size = New System.Drawing.Size(612, 149)
+        Me.btregister.Size = New System.Drawing.Size(459, 121)
         Me.btregister.TabIndex = 0
         Me.btregister.Text = "ลงทะเบียน"
         Me.btregister.UseVisualStyleBackColor = True
         '
         'main
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1268, 609)
+        Me.ClientSize = New System.Drawing.Size(951, 495)
         Me.Controls.Add(Me.close1)
         Me.Controls.Add(Me.btregister)
         Me.Controls.Add(Me.cutgrade)
         Me.Controls.Add(Me.summath)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "main"
         Me.Text = "main"
         Me.ResumeLayout(False)

@@ -70,3 +70,19 @@ C:\Users\rosva\OneDrive\Documents\GitHub\Desktop_App_visual_basic\Jirawat(23)\Ji
 C:\Users\rosva\OneDrive\Documents\GitHub\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat(23).exe
 C:\Users\rosva\OneDrive\Documents\GitHub\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat(23).xml
 C:\Users\rosva\OneDrive\Documents\GitHub\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat(23).pdb
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\bin\Debug\Jirawat(23).exe.config
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\bin\Debug\Jirawat(23).exe
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\bin\Debug\Jirawat(23).pdb
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\bin\Debug\Jirawat(23).xml
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat(23).vbproj.AssemblyReference.cache
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat_23_.cutgradeoage.resources
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat_23_.Login.resources
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat_23_.main.resources
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat_23_.Resources.resources
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat_23_.register.resources
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat_23_.sum.resources
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat(23).vbproj.GenerateResource.cache
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat(23).vbproj.CoreCompileInputs.cache
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat(23).exe
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat(23).xml
+D:\Repository GITHUB\Desktop_App_visual_basic\Jirawat(23)\Jirawat(23)\obj\x86\Debug\Jirawat(23).pdb
