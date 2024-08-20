@@ -116,6 +116,12 @@
     <Compile Include="register.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="search.Designer.vb">
+      <DependentUpon>search.vb</DependentUpon>
+    </Compile>
+    <Compile Include="search.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="sum.Designer.vb">
       <DependentUpon>sum.vb</DependentUpon>
     </Compile>
@@ -141,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="search.resx">
+      <DependentUpon>search.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="sum.resx">
       <DependentUpon>sum.vb</DependentUpon>
