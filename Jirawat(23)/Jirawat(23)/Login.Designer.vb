@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Login
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,14 +20,14 @@ Partial Class Login
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.lgin = New System.Windows.Forms.Button()
         Me.btclose = New System.Windows.Forms.Button()
         Me.textboxuser = New System.Windows.Forms.TextBox()
         Me.textboxpassword = New System.Windows.Forms.TextBox()
+        Me.btlog = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -47,15 +47,6 @@ Partial Class Login
         Me.Label2.Size = New System.Drawing.Size(70, 16)
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Password:"
-        '
-        'lgin
-        '
-        Me.lgin.Location = New System.Drawing.Point(147, 150)
-        Me.lgin.Name = "lgin"
-        Me.lgin.Size = New System.Drawing.Size(101, 36)
-        Me.lgin.TabIndex = 1
-        Me.lgin.Text = "Log-in"
-        Me.lgin.UseVisualStyleBackColor = True
         '
         'btclose
         '
@@ -77,18 +68,28 @@ Partial Class Login
         '
         Me.textboxpassword.Location = New System.Drawing.Point(105, 99)
         Me.textboxpassword.Name = "textboxpassword"
+        Me.textboxpassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
         Me.textboxpassword.Size = New System.Drawing.Size(187, 22)
-        Me.textboxpassword.TabIndex = 2
+        Me.textboxpassword.TabIndex = 3
+        '
+        'btlog
+        '
+        Me.btlog.Location = New System.Drawing.Point(145, 150)
+        Me.btlog.Name = "btlog"
+        Me.btlog.Size = New System.Drawing.Size(116, 49)
+        Me.btlog.TabIndex = 4
+        Me.btlog.Text = "LOG-IN"
+        Me.btlog.UseVisualStyleBackColor = True
         '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(404, 255)
+        Me.Controls.Add(Me.btlog)
         Me.Controls.Add(Me.textboxpassword)
         Me.Controls.Add(Me.textboxuser)
         Me.Controls.Add(Me.btclose)
-        Me.Controls.Add(Me.lgin)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Login"
@@ -100,8 +101,8 @@ Partial Class Login
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents lgin As Button
     Friend WithEvents btclose As Button
     Friend WithEvents textboxuser As TextBox
     Friend WithEvents textboxpassword As TextBox
+    Friend WithEvents btlog As Button
 End Class
