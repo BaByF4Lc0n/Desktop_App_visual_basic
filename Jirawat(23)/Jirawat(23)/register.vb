@@ -89,4 +89,48 @@ Public Class register
         End If
         showtable()
     End Sub
+
+    Private Sub btdelete_Click(sender As Object, e As EventArgs) Handles btdelete.Click
+        Dim sqlQuery As String
+        Dim result As Boolean
+        result = checkdata()
+        If result = True Then
+            Try
+                sqlQuery = "DELETE FROM std WHERE std_id = '" & enterid.Text & "'" ','" & entersurename.Text & "','" & textboxentersex.Text & "','" & entermajor.Text & "')"
+                'With SqlCommand
+                '.CommandText = sqlQuery
+                '.Connection = con
+                '.ExecuteNonQuery()
+                'End With
+                Dim cmd As New OleDbCommand(sqlQuery, con)
+                cmd.ExecuteNonQuery()
+                MsgBox("ลบข้อมูลสำเร็จ", vbInformation)
+            Catch ex As Exception
+                MsgBox(ex.ToString)
+            End Try
+        End If
+        showtable()
+    End Sub
+
+    Private Sub editbutton_Click(sender As Object, e As EventArgs) Handles editbutton.Click
+        Dim sqlQuery As String
+        Dim result As Boolean
+        result = checkdata()
+        If result = True Then
+            Try
+                sqlQuery = "UPDATE std SET std_Name = '" & entername.Text & "', std_Sname = '" & entersurename.Text & "', std_sex = '" & textboxentersex.Text & "', std_major = '" & entermajor.Text & "' WHERE std_id = '" & enterid.Text & "'"
+                'With SqlCommand
+                '.CommandText = sqlQuery
+                '.Connection = con
+                '.ExecuteNonQuery()
+                'End With
+                Dim cmd As New OleDbCommand(sqlQuery, con)
+                cmd.ExecuteNonQuery()
+                MsgBox("แก้ไขข้อมูลสำเร็จ", vbInformation)
+            Catch ex As Exception
+                MsgBox(ex.ToString)
+            End Try
+        End If
+        showtable()
+    End Sub
 End Class
