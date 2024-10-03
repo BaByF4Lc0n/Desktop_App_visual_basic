@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\rosva\\OneDrive\\Documents\\GitHub\\Desktop_App_visual_basic\\Jirawat(23)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Jirawat(23)||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{990A6BEF-8446-4808-A3EF-8EE0C0979467}|Jirawat(23)\\Jirawat(23).vbproj|c:\\users\\rosva\\onedrive\\documents\\github\\desktop_app_visual_basic\\jirawat(23)\\jirawat(23)\\register.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{990A6BEF-8446-4808-A3EF-8EE0C0979467}|Jirawat(23)\\Jirawat(23).vbproj|solutionrelative:jirawat(23)\\register.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
@@ -32,9 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{990A6BEF-8446-4808-A3EF-8EE0C0979467}|Jirawat(23)\\Jirawat(23).vbproj|C:\\Users\\rosva\\OneDrive\\Documents\\GitHub\\Desktop_App_visual_basic\\Jirawat(23)\\jirawat(23)\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{990A6BEF-8446-4808-A3EF-8EE0C0979467}|Jirawat(23)\\Jirawat(23).vbproj|solutionrelative:jirawat(23)\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{990A6BEF-8446-4808-A3EF-8EE0C0979467}|Jirawat(23)\\Jirawat(23).vbproj|c:\\users\\rosva\\onedrive\\documents\\github\\desktop_app_visual_basic\\jirawat(23)\\jirawat(23)\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|cc4014f5-b18d-439c-9352-f99d984cca85"
     }
   ],
   "DocumentGroupContainers": [
@@ -44,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,19 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Jirawat(23)",
-              "DocumentMoniker": "C:\\Users\\rosva\\OneDrive\\Documents\\GitHub\\Desktop_App_visual_basic\\Jirawat(23)\\Jirawat(23)\\Jirawat(23).vbproj",
-              "RelativeDocumentMoniker": "Jirawat(23)\\Jirawat(23).vbproj",
-              "ToolTip": "C:\\Users\\rosva\\OneDrive\\Documents\\GitHub\\Desktop_App_visual_basic\\Jirawat(23)\\Jirawat(23)\\Jirawat(23).vbproj*",
-              "RelativeToolTip": "Jirawat(23)\\Jirawat(23).vbproj*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-10T13:52:43.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Login.vb",
               "DocumentMoniker": "C:\\Users\\rosva\\OneDrive\\Documents\\GitHub\\Desktop_App_visual_basic\\Jirawat(23)\\Jirawat(23)\\Login.vb",
               "RelativeDocumentMoniker": "Jirawat(23)\\Login.vb",
@@ -80,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Login.vb [Design]",
               "DocumentMoniker": "C:\\Users\\rosva\\OneDrive\\Documents\\GitHub\\Desktop_App_visual_basic\\Jirawat(23)\\Jirawat(23)\\Login.vb",
               "RelativeDocumentMoniker": "Jirawat(23)\\Login.vb",
@@ -91,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "main.vb",
               "DocumentMoniker": "C:\\Users\\rosva\\OneDrive\\Documents\\GitHub\\Desktop_App_visual_basic\\Jirawat(23)\\Jirawat(23)\\main.vb",
               "RelativeDocumentMoniker": "Jirawat(23)\\main.vb",
@@ -103,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "main.vb [Design]",
               "DocumentMoniker": "C:\\Users\\rosva\\OneDrive\\Documents\\GitHub\\Desktop_App_visual_basic\\Jirawat(23)\\Jirawat(23)\\main.vb",
               "RelativeDocumentMoniker": "Jirawat(23)\\main.vb",
@@ -114,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "register.vb",
               "DocumentMoniker": "C:\\Users\\rosva\\OneDrive\\Documents\\GitHub\\Desktop_App_visual_basic\\Jirawat(23)\\Jirawat(23)\\register.vb",
               "RelativeDocumentMoniker": "Jirawat(23)\\register.vb",
@@ -127,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "register.vb [Design]",
               "DocumentMoniker": "C:\\Users\\rosva\\OneDrive\\Documents\\GitHub\\Desktop_App_visual_basic\\Jirawat(23)\\Jirawat(23)\\register.vb",
               "RelativeDocumentMoniker": "Jirawat(23)\\register.vb",
@@ -138,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "sum.vb [Design]",
               "DocumentMoniker": "C:\\Users\\rosva\\OneDrive\\Documents\\GitHub\\Desktop_App_visual_basic\\Jirawat(23)\\Jirawat(23)\\sum.vb",
               "RelativeDocumentMoniker": "Jirawat(23)\\sum.vb",
